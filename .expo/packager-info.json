@@ -1,0 +1,8 @@
+{
+  "expoServerNgrokUrl": "https://hg-5cj.anushri.src.exp.direct",
+  "packagerNgrokUrl": "https://packager.hg-5cj.anushri.src.exp.direct",
+  "ngrokPid": 1784,
+  "expoServerPort": 19001,
+  "packagerPort": 19003,
+  "packagerPid": 1756
+}

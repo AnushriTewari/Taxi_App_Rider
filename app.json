@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Merry Go Drive Rider",
+    "sdkVersion": "24.0.0",
+    "privacy": "public",
+    "icon": "./assets/images/icon.png",
+    "slug": "merry-go-drive-rider",
+    "notification": {
+      "icon": "./assets/images/notification.png",
+      "color": "#fad959"
+    },
+    "ios": {
+      "bundleIdentifier": "io.nativebase.market.geekyants.taxiapp",
+      "icon": "./assets/images/icon.png",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId":
+            "805539794872-s9o2jt8l5er0mp5uidj9ak0f1h3chpqp.apps.googleusercontent.com"
+        }
+      }
+    },
+    "android": {
+      "package": "io.nativebase.market.geekyants.taxiapp",
+      "icon": "./assets/images/icon.png",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "MANAGE_DOCUMENTS"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAXW-WDp0MF5si6oFXaukDQuThTr1wqmDE"
+        },
+        "googleSignIn": {
+          "certificateHash":
+            "805539794872-jb1vv12mh1k90fpuo7ki3cku1ietb30e.apps.googleusercontent.com"
+        }
+      }
+    },
+    "splash": {
+      "hideExponentText": true,
+      "image": "./assets/images/launchImages/splashscreen.png",
+      "backgroundColor": "#fad959",
+      "resizeMode": "contain"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "facebookScheme": "fb1919559661598816",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "androidStatusBarColor": "#fad959",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#fad959"
+    }
+  }
+}
